@@ -1,4 +1,4 @@
-import HeroImage from "../Backimage";
+import HeroImage from "@/components/Backimage";
 export default function Home() {
   return (
     <>
