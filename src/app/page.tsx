@@ -1,5 +1,5 @@
 import AboutLp from "./AboutLp";
-import Backimage from "./Backimage";
+import HeroImage from "./Backimage";
 import FaqAccordion from "./FaqAccordion";
 import FixedButton from "./FixedButton";
 import Lptestimonials from "./Lptestimonials";
@@ -8,7 +8,7 @@ import WhyChooseUs from "./Wcu";
 export default function Home() {
   return (
     <>
-<Backimage/>
+<HeroImage src={'/bali-tour-packages-Web-banner.jpg'}/>
 <Tabclick/>
 <AboutLp/>
 <WhyChooseUs/>

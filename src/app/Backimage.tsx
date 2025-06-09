@@ -4,12 +4,12 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
-export default function BaliTourPackagePage() {
+export default function HeroImage({src}: { src: string }) {
   return (
     <>
       <div className="w-full h-[300px] relative">
   <Image
-    src="/bali-tour-packages-Web-banner.jpg" 
+    src={src} 
     alt="Bali Tour Package"
     fill
     className="object-cover"
